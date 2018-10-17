@@ -66,6 +66,7 @@ public class ChargeCreditCard {
                     System.out.println("Message Code: " + result.getMessages().getMessage().get(0).getCode());
                     System.out.println("Description: " + result.getMessages().getMessage().get(0).getDescription());
                     System.out.println("Auth Code: " + result.getAuthCode());
+                    System.out.println("All done");
                 } else {
                     System.out.println("Failed Transaction.");
                     if (response.getTransactionResponse().getErrors() != null) {

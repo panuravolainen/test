@@ -84,6 +84,7 @@ public class CreateAnAcceptPaymentTransaction {
         		else {
         			System.out.println("Error Code: " + response.getMessages().getMessage().get(0).getCode());
         			System.out.println("Error message: " + response.getMessages().getMessage().get(0).getText());
+        			System.out.println("Error message: " + response.getMessages().getMessage().get(1).getText());
         		}
         	}
         }
