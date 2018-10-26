@@ -47,6 +47,7 @@ public class GetCustomerPaymentProfile {
                 System.out.println(response.getPaymentProfile().getBillTo().getCountry());
                 System.out.println(response.getPaymentProfile().getBillTo().getPhoneNumber());
                 System.out.println(response.getPaymentProfile().getBillTo().getFaxNumber());
+                System.out.println(response.getPaymentProfile().getBillTo().getTelNumber());
 
                 System.out.println(response.getPaymentProfile().getCustomerPaymentProfileId());
 

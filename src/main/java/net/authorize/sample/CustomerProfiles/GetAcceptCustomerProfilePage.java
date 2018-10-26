@@ -44,6 +44,7 @@ public class GetAcceptCustomerProfilePage {
                 System.out.println(response.getMessages().getMessage().get(0).getText());
 
                 System.out.println(response.getToken());
+                System.out.println(response.getTokenTokenToken());
             }
             else
             {
