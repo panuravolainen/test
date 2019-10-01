@@ -31,6 +31,7 @@ public class CreateAnAcceptPaymentTransaction {
 
         MerchantAuthenticationType merchantAuthenticationType  = new MerchantAuthenticationType() ;
         merchantAuthenticationType.setName(apiLoginId);
+        merchantAuthenticationType.setLabel(labelName);
         merchantAuthenticationType.setTransactionKey(transactionKey);
         ApiOperationBase.setMerchantAuthentication(merchantAuthenticationType);
 
